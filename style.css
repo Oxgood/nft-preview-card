@@ -32,9 +32,11 @@ body{
     align-items: center;
     border-radius: 10px;
     transition: background-color 0.45s;
+    opacity:0;
 }
 .view-cont:hover{
     background-color: hsla(178, 100%, 50%,0.5);
+    opacity:1;
 }
 .img-container{
     height: 250px;
