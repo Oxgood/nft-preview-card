@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background:  hsl(217, 54%, 11%);
+    font-family: outfit;
+    color: white;
+}
+.main-container{
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px  20px 15px rgba(0,0,0,0.15);
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 30px 20px 20px 20px;
+    margin-bottom: 30px;
+    background-color: hsl(216, 50%, 16%);
+    position: relative;
+}
+.view-cont{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: background-color 0.45s;
+}
+.view-cont:hover{
+    background-color: hsla(178, 100%, 50%,0.5);
+}
+.img-container{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+.img-container img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+.equi{
+    margin-bottom: 0;
+    color: white;
+    width: 250px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: color 0.15s;
+}
+.equi:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.our{
+    width: 250px;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+.text3-cont{
+    display: flex;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.text31, .text32{
+    display: flex;
+    width: 125px;
+    align-items: center;
+}
+.text31{
+    justify-content:left;
+}
+.text31 p{
+    color: hsl(178, 100%, 50%);
+    padding-left: 5px;
+}
+.text32{
+    justify-content:right;
+}
+.text32 p{
+    padding-left: 5px;
+    color: hsl(215, 51%, 70%);
+}
+.profile{
+    align-items: center;
+    width: 250px;
+    display: flex;
+    font-size: 14px;
+}
+.profile img{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.profile-cont::before{
+    content: "";
+    height: 1px;
+    width: 25opx;
+    background-color: hsl(215, 32%, 27%);
+    display: block;
+    margin-bottom: 5px;
+}
+.profile p{
+    margin-left: 10px;
+    color: hsl(215, 51%, 70%);
+}
+.profile p span{
+    color:  hsl(0, 0%, 100%);
+    transition: color 0.5s;
+}
+.profile p span:hover{
+    color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
